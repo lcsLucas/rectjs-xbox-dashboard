@@ -1,0 +1,20 @@
+https://www.webdevdrops.com/webpack-sem-medo-parte-3-plugins-e-dev-server-86b6e003657c/
+
+https://webpack.js.org/
+
+https://getbootstrap.com/docs/4.0/getting-started/webpack/
+
+https://www.npmjs.com/package/npm-run-all
+
+imagens
+    - dashboard xbox one
+        - http://img2.meristation.as.com/files/imagenes/general/ea86b39753b84206177522964846cb18.jpg
+        - https://i.imgur.com/CTfMqPG.jpg
+
+        - principal
+        - recomendados
+        - o que há de novo?
+        - features
+
+    - tab pins
+        - https://gamingbolt.com/wp-content/uploads/2013/08/Xbox-One-UI-2.jpg

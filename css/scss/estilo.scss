@@ -1,0 +1,28 @@
+// reboot variables bootstrap
+    $grid-gutter-width: 10px;
+
+// import bootstrap source
+    // required
+    @import "~bootstrap/scss/functions";
+    @import "~bootstrap/scss/variables";
+    @import "~bootstrap/scss/mixins";
+
+    // optionals
+    @import "~bootstrap/scss/root";
+    @import "~bootstrap/scss/reboot";
+    @import "~bootstrap/scss/type";
+    @import "~bootstrap/scss/images";
+    @import "~bootstrap/scss/grid";
+    @import "~bootstrap/scss/transitions";
+    @import "~bootstrap/scss/nav";
+    @import "~bootstrap/scss/navbar";
+    @import "~bootstrap/scss/dropdown";
+
+    @import "~bootstrap/scss/utilities";
+
+// import partials
+    @import "variables_mixins/variables";
+    @import "partials/import-fonts";
+    @import "partials/geral";
+    @import "partials/header";
+    @import "partials/dashboard-one";
