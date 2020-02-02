@@ -93,11 +93,11 @@ include "header.php";
                                 <div class="col mx-px-5">
                                     <div class="content feature">
                                         <a href="">
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="fa-fw">
-                                                <path fill="currentColor" d="M391.17,103.47H352.54v109.7h38.63ZM285,103H246.37V212.75H285ZM120.83,0,24.31,91.42V420.58H140.14V512l96.53-91.42h77.25L487.69,256V0ZM449.07,237.75l-77.22,73.12H294.61l-67.6,64v-64H140.14V36.58H449.07Z" class=""></path>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="fa-fw">
+                                                <path fill="currentColor" d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zM88 256H56c0-105.9 86.1-192 192-192v32c-88.2 0-160 71.8-160 160zm160 96c-53 0-96-43-96-96s43-96 96-96 96 43 96 96-43 96-96 96zm0-128c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32z" class=""></path>
                                             </svg>
                                             <h4>
-                                                Twitch
+                                                Insert disc
                                             </h4>
                                         </a>
                                     </div>

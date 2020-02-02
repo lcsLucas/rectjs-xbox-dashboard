@@ -1,6 +1,7 @@
-const path = require('path')
-const webpack = require("webpack")
-const MiniCssExtractPlugin = require("mini-css-extract-plugin")  
+const path = require('path');
+const webpack = require("webpack");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin")  ;
+const FixStyleOnlyEntriesPlugin = require("webpack-fix-style-only-entries");
 const __publicPath = path.join(__dirname, 'public');
 
 module.exports = (env, argv) => {
@@ -15,7 +16,7 @@ module.exports = (env, argv) => {
       path: __publicPath
     },
     mode: 'development',
-    devtool: 'source-map',
+    devtool: argv.mode !== 'production' ? 'cheap-eval-source-map' : 'source-map',
     devServer: {
       contentBase: __publicPath,
       compress: true,
@@ -87,7 +88,8 @@ module.exports = (env, argv) => {
       new MiniCssExtractPlugin({
         filename: argv.mode !== 'production' ? '[name].css' : '[name].min.css',
         chunkFilename: '[id].css',
-      }) 
+      }),
+      new FixStyleOnlyEntriesPlugin() 
     ]
   };
 

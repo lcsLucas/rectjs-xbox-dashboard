@@ -8,3 +8,18 @@ AddType font/woff .woff
         Header set Access-Control-Allow-Origin "*"
     </IfModule>
 </FilesMatch>
+
+# Deny access to .htaccess
+<Files .htaccess>
+Order allow,deny
+Deny from all
+</Files>
+
+# Deny access to .map
+<Files .map>
+Order allow,deny
+Deny from all
+</Files>
+
+# Disable directory browsing 
+Options -Indexes
