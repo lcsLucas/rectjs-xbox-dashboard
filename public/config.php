@@ -11,7 +11,7 @@ session_start();
 $versao = '3'; 
 $localhost = TRUE;
 
-$baseurl_assets = $baseurl = "http://localhost:8000/";
+$baseurl_assets = $baseurl = "http://localhost:8080/";
 
 if (!empty($localhost))
     $baseurl_assets = "http://localhost:8080/";

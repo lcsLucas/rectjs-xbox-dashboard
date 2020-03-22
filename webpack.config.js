@@ -20,9 +20,9 @@ module.exports = (env, argv) => {
     devServer: {
       contentBase: __publicPath,
       compress: true,
-      proxy: {
+      /*proxy: {
         '/api': 'http://localhost:3000'
-      }
+      }*/
       //open: 'chrome',
     },
     module: {

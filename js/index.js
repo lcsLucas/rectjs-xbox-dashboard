@@ -9,7 +9,7 @@ import './jInvertScroll/dist/js/jquery.jInvertScroll'
 
     var elem = $.jInvertScroll(['.scroll'],        // an array containing the selector(s) for the elements you want to animate
         {
-            height: 507,
+            height: 1500,
             onScroll: function (percent) {   //optional: callback function that will be called when the user scrolls down, useful for animating other things on the page
                 console.log(percent);
             }
