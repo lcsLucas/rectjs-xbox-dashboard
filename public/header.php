@@ -40,7 +40,7 @@ require "config.php";
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">
+                                <a data-modal class="nav-link" href="#modal-login">
                                     Sign in
                                 </a>
                             </li>

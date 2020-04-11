@@ -15,13 +15,23 @@ import './jInvertScroll/dist/js/jquery.jInvertScroll'
             }
         });
 
-    $(window).resize(function () {
-        if ($(window).width() <= 768) {
+    window.addEventListener('resize', () => {
+        if (this.innerWidth <= 768)
             elem.destroy();
-        }
-        else {
+        else
             elem.reinitialize();
-        }
     });
+
+    const links_modais = document.querySelectorAll('a[data-modal]');
+
+    document.querySelectorAll('.modal.active').forEach(element => element.classList.remove('active') );
+    links_modais.forEach(element => {
+        
+        element.addEventListener('click', (e) => {
+            e.preventDefault();
+            document.body.style.overflow= 'hidden';
+            document.querySelector(element.getAttribute('href')).classList.toggle('active')
+        });
+    })
 
 })();

@@ -82,9 +82,6 @@ module.exports = (env, argv) => {
         $: "jquery",
         jQuery: "jquery"
       }),
-      new webpack.ContextReplacementPlugin(
-        /moment[\/\\]locale$/, /pt-br/
-      ),
       new MiniCssExtractPlugin({
         filename: argv.mode !== 'production' ? '[name].css' : '[name].min.css',
         chunkFilename: '[id].css',
